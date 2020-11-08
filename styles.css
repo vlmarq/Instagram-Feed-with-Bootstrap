@@ -1,0 +1,61 @@
+* {
+	font-size: 10px;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: baseline;
+}
+
+.navbar-brand h1 {
+	font-family: "Oleo Script", cursive;
+	color: gray;
+	font-size: 2.5rem;
+}
+
+.create-post {
+	background: green;
+	color: white;
+}
+
+.btn {
+	white-space: nowrap;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+.col-12 {
+	margin: 20px 0;
+}
+
+.card-header {
+	background-color: #fff;
+}
+
+.card-footer {
+	background-color: #fff;
+	border: none;
+}
+
+.card-date {
+	margin-left: auto;
+}
+
+.fa-camera,
+.fa-map-marker-alt {
+	border: 1px solid lightgray;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.fa-map-marker-alt {
+	margin-left: 5px;
+}
+
+.nav-pills {
+	color: gray;
+}
