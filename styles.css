@@ -16,6 +16,7 @@
 .create-post {
 	background: green;
 	color: white;
+	margin-right: 10px;
 }
 
 .btn {
@@ -33,6 +34,8 @@ img {
 
 .card-header {
 	background-color: #fff;
+	display: flex;
+	align-items: center;
 }
 
 .card-footer {
@@ -56,6 +59,10 @@ img {
 	margin-left: 5px;
 }
 
-.nav-pills {
-	color: gray;
+input.form-control {
+	border: none;
+}
+
+.input-group {
+	align-items: baseline;
 }
