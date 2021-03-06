@@ -8,9 +8,18 @@
 }
 
 .navbar-brand h1 {
-	font-family: "Oleo Script", cursive;
-	color: gray;
-	font-size: 2.5rem;
+	font-family: "Oleo Script", cursive;	
+    font-size: 2.5rem;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .create-post {
@@ -21,7 +30,17 @@
 
 .btn {
 	white-space: nowrap;
-	text-align: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    border-color: #7456D4;
+}
+
+.btn:hover {
+    background-color: #7456D4;
+    opacity: 0.8;
+    border-color: transparent;
 }
 
 img {
@@ -59,10 +78,30 @@ img {
 	margin-left: 5px;
 }
 
+.fa-cog {
+    color: #7456D4;
+}
+
 input.form-control {
 	border: none;
 }
 
 .input-group {
 	align-items: baseline;
+}
+
+
+@media screen and (max-width: 991px) {
+    .btn {
+        margin-left: auto;
+    }
+
+    #photo-view .col-sm {
+        margin: 10px 0;
+    }
+
+    #photo-view div.row {
+        margin: 0;
+        padding: 0;
+    }
 }
